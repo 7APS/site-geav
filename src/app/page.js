@@ -2,8 +2,8 @@ import Image from 'next/image'
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-center p-24">
-      <p className="font-mono flex text-3xl text-lime-600 leading-10">Em Construção...</p>
+    <main className="flex min-h-screen flex-col items-center justify-start p-24">
+      <p className="font-mono flex text-xl text-lime-600 leading-10">Em Construção...</p>
       <div className="relative flex place-items-center">
         <Image
           className="relative"
